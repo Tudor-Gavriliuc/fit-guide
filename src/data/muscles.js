@@ -1,20 +1,27 @@
+import chestImg from '../assets/chest.png';
+import backImg from '../assets/back.png';
+import legsImg from '../assets/legs.png';
+
 export const muscles = [
     {
       id: 'chest',
       name: 'Piept',
-      shortDesc: 'Grupa musculară situată în partea frontală a trunchiului.',
-      description: 'Mușchii pectorali sunt esențiali pentru mișcările de împingere. Exerciții populare: flotări, împins la piept, fluturări cu gantere.'
+      shortDesc: 'Mușchii pectorali – mișcări de împingere.',
+      description: 'Exerciții: flotări, împins la piept, fluturări.',
+      image: chestImg
     },
     {
       id: 'back',
       name: 'Spate',
-      shortDesc: 'Grupă majoră implicată în tras și postură.',
-      description: 'Include mușchi ca latissimus dorsi și trapezul. Exerciții eficiente: ramat, tracțiuni, ramat la cablu.'
+      shortDesc: 'Mușchi implicați în tracțiuni și postură.',
+      description: 'Exerciții: ramat, tracțiuni, extensii.',
+      image: backImg
     },
     {
       id: 'legs',
       name: 'Picioare',
-      shortDesc: 'Susțin greutatea corpului și ajută la deplasare.',
-      description: 'Include cvadriceps, biceps femural și gambe. Exerciții de bază: genuflexiuni, fandări, presa pentru picioare.'
-    },
+      shortDesc: 'Cvadriceps, femural, gambe.',
+      description: 'Exerciții: genuflexiuni, fandări, presă.',
+      image: legsImg
+    }
   ];
