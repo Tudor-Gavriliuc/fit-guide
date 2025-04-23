@@ -1,22 +1,22 @@
 .nav-custom-link {
     font-weight: 600;
     position: relative;
-    text-transform: uppercase;
+    color: white !important;
     transition: color 0.3s ease;
   }
   
   .nav-custom-link::after {
     content: "";
     position: absolute;
-    bottom: -4px;
     left: 0;
+    bottom: -5px;
     width: 0%;
     height: 2px;
     background-color: #e60023;
     transition: width 0.3s ease;
   }
   
-  .nav-custom-link:hover::after {
+  .nav-custom-link:hover::after,
+  .nav-custom-link:focus::after {
     width: 100%;
   }
-  
