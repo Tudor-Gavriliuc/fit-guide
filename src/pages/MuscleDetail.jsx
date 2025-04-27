@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { muscles } from '../data/muscles';
-import chestExercises from '../data/chestExercises.json';
-import backExercises from '../data/backExercises.json';
-import legsExercises from '../data/legsExercises.json';
+import chestExercises from '../data/chestExercises.js';
+import backExercises from '../data/backExercises.js';
+import legsExercises from '../data/legsExercises.js';
 import ExerciseCard from '../components/ExerciseCard';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
