@@ -1,0 +1,63 @@
+[
+    {
+      "id": "pull-up",
+      "name": "Pull-up",
+      "image": "/src/assets/back_exercises/back1.png",
+      "videoUrl": "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+    },
+    {
+      "id": "chin-up",
+      "name": "Chin-up",
+      "image": "/src/assets/back_exercises/back2.png",
+      "videoUrl": "https://www.youtube.com/watch?v=b-ztMQpgd3o"
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "image": "/src/assets/back_exercises/back3.png",
+      "videoUrl": "https://www.youtube.com/watch?v=CAwf7n6Luuc"
+    },
+    {
+      "id": "barbell-row",
+      "name": "Barbell Row",
+      "image": "/src/assets/back_exercises/back4.png",
+      "videoUrl": "https://www.youtube.com/watch?v=vT2GjY_Umpw"
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "image": "/src/assets/back_exercises/back5.png",
+      "videoUrl": "https://www.youtube.com/watch?v=Ixo7sWv4ktk"
+    },
+    {
+      "id": "t-bar-row",
+      "name": "T-Bar Row",
+      "image": "/src/assets/back_exercises/back6.png",
+      "videoUrl": "https://www.youtube.com/watch?v=JR8AfNd9b2c"
+    },
+    {
+      "id": "dumbbell-row",
+      "name": "One-Arm Dumbbell Row",
+      "image": "/src/assets/back_exercises/back7.png",
+      "videoUrl": "https://www.youtube.com/watch?v=pYcpY20QaE8"
+    },
+    {
+      "id": "deadlift",
+      "name": "Deadlift",
+      "image": "/src/assets/back_exercises/back8.png",
+      "videoUrl": "https://www.youtube.com/watch?v=op9kVnSso6Q"
+    },
+    {
+      "id": "reverse-fly",
+      "name": "Reverse Fly",
+      "image": "/src/assets/back_exercises/back9.png",
+      "videoUrl": "https://www.youtube.com/watch?v=5A8fi3yMnB8"
+    },
+    {
+      "id": "straight-arm-pulldown",
+      "name": "Straight Arm Pulldown",
+      "image": "/src/assets/back_exercises/back10.png",
+      "videoUrl": "https://www.youtube.com/watch?v=WxXHMKhIhw8"
+    }
+  ]
+  

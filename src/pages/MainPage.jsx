@@ -10,7 +10,7 @@ export default function MainPage({ toggleBackground, bgMode }) {
         <div className="responsive-padding">
           <h1 className="text-center mb-5"></h1>
 
-          {/* Fiecare imagine pe rând, lată */}
+          {}
           <div className="d-flex flex-column align-items-center gap-4">
             {muscles.map((muscle) => (
               <div key={muscle.id} className="w-100" style={{ maxWidth: '1400px' }}>

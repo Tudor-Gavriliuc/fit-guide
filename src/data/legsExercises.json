@@ -1,0 +1,63 @@
+[
+    {
+      "id": "squat",
+      "name": "Squat",
+      "image": "/src/assets/leg_exercises/legs1.png",
+      "videoUrl": "https://www.youtube.com/watch?v=Dy28eq2PjcM"
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press",
+      "image": "/src/assets/leg_exercises/legs2.png",
+      "videoUrl": "https://www.youtube.com/watch?v=IZxyjW7MPJQ"
+    },
+    {
+      "id": "walking-lunges",
+      "name": "Walking Lunges",
+      "image": "/src/assets/leg_exercises/legs3.png",
+      "videoUrl": "https://www.youtube.com/watch?v=wrwwXE_x-pQ"
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg Extension",
+      "image": "/src/assets/leg_exercises/legs4.png",
+      "videoUrl": "https://www.youtube.com/watch?v=YyvSfVjQeL0"
+    },
+    {
+      "id": "hamstring-curl",
+      "name": "Hamstring Curl",
+      "image": "/src/assets/leg_exercises/legs5.png",
+      "videoUrl": "https://www.youtube.com/watch?v=1Tq3QdYUuHs"
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "Bulgarian Split Squat",
+      "image": "/src/assets/leg_exercises/legs6.png",
+      "videoUrl": "https://www.youtube.com/watch?v=2C-uNgKwPLE"
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian Deadlift",
+      "image": "/src/assets/leg_exercises/legs7.png",
+      "videoUrl": "https://www.youtube.com/watch?v=2SHsk9AzdjA"
+    },
+    {
+      "id": "step-ups",
+      "name": "Step-ups",
+      "image": "/src/assets/leg_exercises/legs8.png",
+      "videoUrl": "https://www.youtube.com/watch?v=dQqApCGd5Ss"
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Glute Bridge",
+      "image": "/src/assets/leg_exercises/legs9.png",
+      "videoUrl": "https://www.youtube.com/watch?v=m2Zx-57cSok"
+    },
+    {
+      "id": "calf-raises",
+      "name": "Calf Raises",
+      "image": "/src/assets/leg_exercises/legs10.png",
+      "videoUrl": "https://www.youtube.com/watch?v=-M4-G8p8fmc"
+    }
+  ]
+  
