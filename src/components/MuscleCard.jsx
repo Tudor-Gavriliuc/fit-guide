@@ -1,34 +1,22 @@
 import { Link } from 'react-router-dom';
-import './MuscleCard.css'; // Make sure to include this
 
 export default function MuscleCard({ muscle }) {
   return (
-    <div className="mb-5">
-      <div
-        className="hover-image-wrapper position-relative"
-        style={{ marginBottom: '1.5rem' }}
-      >
+    <div className="card h-100 exercise-card position-relative overflow-hidden">
       <img
         src={muscle.image}
         alt={muscle.name}
-        className="img-fluid w-100"
-        style={{
-          width: '100%',
-          maxWidth: '100%',
-          maxHeight: '300px',
-          objectFit: 'cover',
-          display: 'block'
-        }}
+        className="img-fluid"
+        style={{ height: '300px', objectFit: 'cover', width: '100%' }}
       />
-        <div
-          className="hover-overlay text-white d-flex flex-column justify-content-center align-items-center text-center"
+      <div className="exercise-overlay d-flex flex-column justify-content-center align-items-center">
+        <h5 className="text-white mb-3 fs-4">{muscle.name}</h5>
+        <Link
+          to={`/muscles/${muscle.id}`}
+          className="btn btn-danger btn-sm"
         >
-          <h3 className="fw-bold mb-3">{muscle.name}</h3>
-          <p className="fs-5">{muscle.shortDesc}</p>
-          <Link to={`/muscles/${muscle.id}`} className="custom-profile-btn mt-3">
-            Află mai mult
-          </Link>
-        </div>
+          Vezi exerciții
+        </Link>
       </div>
     </div>
   );

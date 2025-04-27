@@ -1,4 +1,3 @@
-import React from 'react';
 import { muscles } from '../data/muscles';
 import MuscleCard from '../components/MuscleCard';
 import Navbar from '../components/Navbar';
@@ -9,11 +8,17 @@ export default function MainPage({ toggleBackground, bgMode }) {
       <Navbar toggleBackground={toggleBackground} bgMode={bgMode} />
       <div className="container-fluid mt-5">
         <div className="responsive-padding">
-          <div className="row g-4">
+          <h1 className="text-center mb-5"></h1>
+
+          {/* Fiecare imagine pe rând, lată */}
+          <div className="d-flex flex-column align-items-center gap-4">
             {muscles.map((muscle) => (
-              <MuscleCard key={muscle.id} muscle={muscle} />
+              <div key={muscle.id} className="w-100" style={{ maxWidth: '1400px' }}>
+                <MuscleCard muscle={muscle} />
+              </div>
             ))}
           </div>
+
         </div>
       </div>
     </>
