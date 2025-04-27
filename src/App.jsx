@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fit-guide"> {}
       <Routes>
         <Route
           path="/"
